@@ -3,13 +3,15 @@ import {Link} from 'react-router-dom';
 
 function Navbar() {
     const[click, setClick] = useState(false);
+
+    const handleClick = () => setClick(!click);
     return (
         <>
         <nav className="navbar">
            <div className="navbar-cont">
-              <Link to="/" className="nav-barLogo">Love K</Link> 
+              <Link to="/" className="nav-barLogo">LVK<i className='fab fa-affiliatetheme'/></Link> 
               <div className='menu-icons'>
-                  <div className={click ? 'd' : 'd'}></div>
+                  <i className={click ? 'fas fa-bars' : 'fas fa-hamburger'}/>
 
               </div>
            </div>
