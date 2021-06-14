@@ -1,12 +1,25 @@
 import React, {useState} from 'react';
 import {Link} from 'react-router-dom';
+import {hButtons} from './hButtons';
 
 function Navbar() {
     const [click, setClick] = useState(false);
 
+    const [button, setButton] = useState(true)
+
     const handleClick = () => setClick(!click);
 
     const closeMenu = () => setClick(false)
+
+    const showButton = () => {
+        if(window.innerWidth <= 960) {
+            setButton(false)
+        } else {
+            setButton(true)
+        }
+    };
+
+    window.addEventListener('resize', showButton)
     return (
         <>
         <nav className="navbar">
@@ -32,12 +45,10 @@ function Navbar() {
                           Explore Kenya
                       </Link>
                   </li>
-                  <li className='nav-list'>
-                      <Link to='/' className='nav-mobile' onClick={closeMenu}>
-                          Sign Up
-                      </Link>
-                  </li>
+                  
+                  
               </ul>
+              {button && <hButtons buttonStyle='btn-primary' >Sign-Up</hButtons>}
            </div>
 
         </nav>
