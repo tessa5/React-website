@@ -2,18 +2,18 @@ import React from 'react';
 
 import { Link } from 'react-router-dom';
 
-const STYLES = ['btn-primary', 'btn-normal'];
+const STYLES = ['border-2 rounded-md py-2 px-4 ', 'border-3 rounded-full py-3 px-6'];
 
-const SIZES = ['btn-medium' , 'btn-large']
+const SIZES = ['p-6 transition delay-150 duration-300 ease-in-out text-xl font-normal'  , 'p-8 transition delay-150 duration-300 ease-in-out text-xl font-semibold']
 
-export const hButtons = ({
+export const Buttons = ({
     children,
     type,
     onClick,
     buttonStyle,
     buttonSize
 }) => {
-    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
+    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
 
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
 
