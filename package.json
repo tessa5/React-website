@@ -2,7 +2,7 @@
   "name": "react-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/tessa5/React-website",
+  "homepage": "https://github.io/tessa5/React-website",
   "dependencies": {
     "@craco/craco": "^6.1.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
