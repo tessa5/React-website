@@ -14,6 +14,9 @@ function Header() {
                 <Buttons>
                     STARTS HERE
                 </Buttons>
+                <Buttons>
+                    SHORT VIDEO <i className='far fa-play-circle'/>
+                </Buttons>
             </div>
         </div>
         </div>
