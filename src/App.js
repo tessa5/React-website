@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/React-website">
       <Navbar/>
       <Switch>
         <Route path='/' exact component={Header}/>
