@@ -1,4 +1,6 @@
 import React from 'react';
+import BodyLinks from './Body-C';
+
 
 
 function body(){
@@ -9,21 +11,21 @@ function body(){
             <div className='body-container'>
                 <div className='body-wrapper'>
                     <ul>
-                        <Body-C
+                        <BodyLinks
                             src='Images/img1.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img2.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img3.jpg'
                             alt=""
                             text=""
@@ -32,21 +34,21 @@ function body(){
                         />
                     </ul>
                     <ul>
-                        <Body-C
+                        <BodyLinks
                             src='Images/img4.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img5.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img6.png'
                             alt=""
                             text=""
@@ -55,21 +57,21 @@ function body(){
                         />
                     </ul>
                     <ul>
-                        <Body-C
+                        <BodyLinks
                             src='Images/img7.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img8.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/img9.jpg'
                             alt=""
                             text=""
@@ -78,21 +80,21 @@ function body(){
                         />
                     </ul>
                     <ul>
-                        <Body-C
+                        <BodyLinks
                             src='Images/img10.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/IMage2.jpg'
                             alt=""
                             text=""
                             label=""
                         
                         />
-                        <Body-C
+                        <BodyLinks
                             src='Images/IMage1.jpg'
                             alt=""
                             text=""
@@ -108,3 +110,5 @@ function body(){
         </>
     );
 }
+
+export default body;
