@@ -8,7 +8,7 @@ function Header() {
             <div className="relative h-auto w-screen">
             <img src= "/Images/IMage1.jpg" alt=''/> 
             
-            <h1 className='heading text-4xl text-white font-bold absolute top-1/4 right-1/2 '>MY MAGICAL KENYA</h1>
+            <h1 className='text-center sm: text-left text-white font-bold inset-x-1/4 top-1/4 relative md:absolute'>MY MAGICAL KENYA</h1>
             <h5>Discover More...</h5>
             <div className='btn-header'>
                 <Buttons>

@@ -10,99 +10,92 @@ function body(){
             <h1>Magical Destinations in KENYA</h1>
             <div className='body-container'>
                 <div className='body-wrapper'>
-                    <ul>
+                    <ul className='body-Container'>
                         <BodyLinks
-                            src='Images/img1.jpg'
-                            alt=""
-                            text=""
-                            label=""
-                        
+                            src="../Images/img1.jpg"
+                            text="here is some text-testing"
+                            label="Adventure"
+                            path="/explore"
                         />
                         <BodyLinks
-                            src='Images/img2.jpg'
-                            alt=""
+                            src='../Images/img2.jpg'
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/img3.jpg'
+                            src='../Images/img3.jpg'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                     </ul>
                     <ul>
                         <BodyLinks
-                            src='Images/img4.jpg'
+                            src='../Images/img4.jpg'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/img5.jpg'
+                            src='../Images/img5.jpg'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/img6.png'
+                            src='../Images/img6.png'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                     </ul>
                     <ul>
                         <BodyLinks
-                            src='Images/img7.jpg'
+                            src='../Images/img7.jpg'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/img8.jpg'
+                            src='../Images/img8.jpg'
                             alt=""
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/img9.jpg'
-                            alt=""
+                            src='../Images/img9.jpg'
                             text=""
                             label=""
-                        
+                            path=""
                         />
                     </ul>
                     <ul>
                         <BodyLinks
-                            src='Images/img10.jpg'
-                            alt=""
+                            src='../Images/img10.jpg'
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/IMage2.jpg'
-                            alt=""
+                            src='../Images/IMage2.jpg'
                             text=""
                             label=""
-                        
+                            path=""
                         />
                         <BodyLinks
-                            src='Images/IMage1.jpg'
-                            alt=""
+                            src='../Images/IMage1.jpg'
                             text=""
                             label=""
-                        
+                            path=""
                         />
                     </ul>
-                   
                 </div>
 
             </div>
