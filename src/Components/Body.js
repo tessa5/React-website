@@ -13,7 +13,7 @@ function body(){
                     <ul className='body-Container'>
                         <BodyLinks
                             src="../Images/img1.jpg"
-                            text="here is some text-testing"
+                            text="some of Kenya's Exotic Safaris"
                             label="Adventure"
                             path="/explore"
                         />
