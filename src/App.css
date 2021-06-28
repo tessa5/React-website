@@ -11,3 +11,11 @@
     }
 
   }
+  @media screen and (max-width: 960px) {
+    .footer-input {width:100%}
+    .social-wrap {
+      flex-direction: column;
+      align-items: center;
+      padding-top:2px;
+    }
+  }
