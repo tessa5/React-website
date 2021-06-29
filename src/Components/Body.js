@@ -6,11 +6,11 @@ import BodyLinks from './Body-C';
 function body(){
     return(
         <>
-        <div className='body-section'>
-            <h1>Magical Destinations in KENYA</h1>
-            <div className='body-container'>
+        <div className='body-section p-2 bg-white'>
+            <h1 className='m-8 text-4xl text-center'>Magical Destinations in KENYA</h1>
+            <div className='body-container flex flex-col flex justify-center items-center m-auto'>
                 <div className='body-wrapper'>
-                    <ul className='body-Container'>
+                    <ul className='body-items'>
                         <BodyLinks
                             src="../Images/img1.jpg"
                             text="some of Kenya's Exotic Safaris"

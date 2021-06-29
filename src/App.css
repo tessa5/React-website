@@ -4,10 +4,10 @@
 
 @layer base {
     h1 {
-      @apply text-2xl;
+      @apply text-xl;
     }
     h5 {
-      @apply text-xl;
+      @apply text-xs;
     }
 
   }
@@ -50,6 +50,27 @@
       opacity: 1;
       transition: all 0.5s ease-out;
       z-index: 1;
+    }
+    .Header img {
+      position: relative;
+    }
+    .Header > h1 {
+      font-size: 25px;
+      letter-spacing: 0.5px;
+      position: absolute;
+      top:30px;
+      z-index: 20;
+    }
+    .Header > h5 {
+      font-size:25px;
+      position: absolute;
+      top:40px;
+      z-index: 20;
+    }
+    .btn-header {
+      position:absolute;
+      top: 100px;
+      
     }
     .footer-input {width:100%}
     .social-wrap {

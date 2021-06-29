@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 function BodyLinks(props) {
     return(
         <>
-        <li className="body-Container">
-            <Link className="body-link" to={props.path}>
+        <li className="body-Container mb-4 flex flex-1 rounded-t-lg">
+            <Link className="body-link flex flex-col " to={props.path}>
                 <figure className="body-img-wrap" data-category={props.label}>
                     <img 
                         className="class-image"
