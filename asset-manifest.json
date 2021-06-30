@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tessa5/React-website/static/css/main.731704ec.chunk.css",
-    "main.js": "/tessa5/React-website/static/js/main.699b0e74.chunk.js",
-    "main.js.map": "/tessa5/React-website/static/js/main.699b0e74.chunk.js.map",
+    "main.css": "/tessa5/React-website/static/css/main.1cc71445.chunk.css",
+    "main.js": "/tessa5/React-website/static/js/main.0b929ab8.chunk.js",
+    "main.js.map": "/tessa5/React-website/static/js/main.0b929ab8.chunk.js.map",
     "runtime-main.js": "/tessa5/React-website/static/js/runtime-main.fec803c9.js",
     "runtime-main.js.map": "/tessa5/React-website/static/js/runtime-main.fec803c9.js.map",
-    "static/js/2.e16693ee.chunk.js": "/tessa5/React-website/static/js/2.e16693ee.chunk.js",
-    "static/js/2.e16693ee.chunk.js.map": "/tessa5/React-website/static/js/2.e16693ee.chunk.js.map",
+    "static/js/2.757dcec7.chunk.js": "/tessa5/React-website/static/js/2.757dcec7.chunk.js",
+    "static/js/2.757dcec7.chunk.js.map": "/tessa5/React-website/static/js/2.757dcec7.chunk.js.map",
     "index.html": "/tessa5/React-website/index.html",
-    "static/css/main.731704ec.chunk.css.map": "/tessa5/React-website/static/css/main.731704ec.chunk.css.map",
-    "static/js/2.e16693ee.chunk.js.LICENSE.txt": "/tessa5/React-website/static/js/2.e16693ee.chunk.js.LICENSE.txt"
+    "static/css/main.1cc71445.chunk.css.map": "/tessa5/React-website/static/css/main.1cc71445.chunk.css.map",
+    "static/js/2.757dcec7.chunk.js.LICENSE.txt": "/tessa5/React-website/static/js/2.757dcec7.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fec803c9.js",
-    "static/js/2.e16693ee.chunk.js",
-    "static/css/main.731704ec.chunk.css",
-    "static/js/main.699b0e74.chunk.js"
+    "static/js/2.757dcec7.chunk.js",
+    "static/css/main.1cc71445.chunk.css",
+    "static/js/main.0b929ab8.chunk.js"
   ]
 }
