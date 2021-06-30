@@ -9,7 +9,7 @@ function BodyLinks(props) {
             <Link className="body-link flex flex-col " to={props.path}>
                 <figure className="body-img-wrap" data-category={props.label}>
                     <img 
-                        className="class-image"
+                        className="class-image "
                         alt="magical Kenya"
                         src={props.src}
                     />
