@@ -72,6 +72,10 @@
       top: 100px;
       
     }
+    .body-Container{
+      float: left;
+      width:100%;
+    }
     .footer-input {width:100%}
     .social-wrap {
       flex-direction: column;
