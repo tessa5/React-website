@@ -6,8 +6,8 @@ import BodyLinks from './Body-C';
 function body(){
     return(
         <>
-        <div className='body-section p-2 bg-white'>
-            <h1 className='m-8 text-4xl text-center'>Magical Destinations in KENYA</h1>
+        <div className='body-section p-1 bg-white'>
+            <h1 className='m-4 text-4xl text-center'>Magical Destinations in KENYA</h1>
             <div className='body-container flex flex-col m-auto'>
                 <div className='body-wrapper'>
                     <ul className='body-items flex flex-row'>
@@ -31,7 +31,7 @@ function body(){
                             path=""
                         />
                     </ul>
-                    <ul className="flex flex-row">
+                    <ul className="body-items flex flex-row">
                         <BodyLinks
                             src='../Images/img4.jpg'
                             alt=""
@@ -54,7 +54,7 @@ function body(){
                             path=""
                         />
                     </ul>
-                    <ul className="flex flex-row">
+                    <ul className="body-items flex flex-row">
                         <BodyLinks
                             src='../Images/img7.jpg'
                             alt=""
@@ -76,7 +76,7 @@ function body(){
                             path=""
                         />
                     </ul>
-                    <ul className="flex flex-row">
+                    <ul className="body-items flex flex-row">
                         <BodyLinks
                             src='../Images/img10.jpg'
                             text=""

@@ -23,7 +23,7 @@ function Navbar() {
     return (
         <>
         <nav className="navbar sticky top-0 z-50">
-            <div className="navbar-cont h-20 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-300 text-black">
+            <div className="navbar-cont h-20 bg-indigo-900 text-white">
                 <Link to="/" className="ml-8  p-4 text-3xl font-bold tracking-wider leading-tight float-left">LVK<i className='fab fa-affiliatetheme'/></Link> 
                 <div className='menu-icons hidden text-3xl'onClick={handleClick}>
                     <i className={click ? 'fas fa-times' : 'fas fa-hamburger'}/>
