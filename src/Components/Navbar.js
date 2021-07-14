@@ -30,7 +30,7 @@ function Navbar() {
 
             </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                    <li className='nav-list float-left p-4 pl-28 text-2xl font-bold'>
+                    <li className='nav-list float-left p-4 pl-96 text-2xl font-bold'>
                         <Link to='/home' className='nav-link' onClick={closeMenu}>
                             Home
                         </Link>

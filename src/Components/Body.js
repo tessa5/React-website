@@ -19,14 +19,14 @@ function body(){
                         />
                         <BodyLinks
                             src='../Images/img2.jpg'
-                            text=""
+                            text="Explore Kenya"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/img3.jpg'
                             alt=""
-                            text=""
+                            text="Let your imagination run wild"
                             label=""
                             path=""
                         />
@@ -35,21 +35,21 @@ function body(){
                         <BodyLinks
                             src='../Images/img4.jpg'
                             alt=""
-                            text=""
+                            text="Serenity at its'best"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/img5.jpg'
                             alt=""
-                            text=""
+                            text="Tranquility"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/img6.png'
                             alt=""
-                            text=""
+                            text="One with nature"
                             label=""
                             path=""
                         />
@@ -57,21 +57,21 @@ function body(){
                     <ul className="body-items flex flex-row">
                         <BodyLinks
                             src='../Images/img7.jpg'
-                            alt=""
-                            text=""
+                            alt="Lost in nature"
+                            text="Lost in nature"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/img8.jpg'
                             alt=""
-                            text=""
+                            text="Wonder of the World"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/img9.jpg'
-                            text=""
+                            text="The world of the wild"
                             label=""
                             path=""
                         />
@@ -79,19 +79,19 @@ function body(){
                     <ul className="body-items flex flex-row">
                         <BodyLinks
                             src='../Images/img10.jpg'
-                            text=""
+                            text="The big five"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/IMage2.jpg'
-                            text=""
+                            text="Desert lake"
                             label=""
                             path=""
                         />
                         <BodyLinks
                             src='../Images/IMage1.jpg'
-                            text=""
+                            text="Bird migration"
                             label=""
                             path=""
                         />
